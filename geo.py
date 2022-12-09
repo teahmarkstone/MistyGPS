@@ -74,3 +74,27 @@ def get_directions(string_location):
             new_line = "In " + line[1] + ": " + line[0]
             result.append(new_line)
         return result
+
+
+# if __name__ == "__main__":
+#     # KEY = 'AIzaSyCU1DnFQWrL7wnejd4OByB2z8HN17_ykrw'
+#     # gmaps = googlemaps.Client(key=KEY)
+#     #
+#     # ### Get current location with ip address request (kinda inaccurate) ###
+#     # # current_loc = get_curr_location()
+#     #
+#     # ### Current location hard coded ###
+#     # current_loc = gmaps.geocode("177 College Ave, Medford, MA 02155")
+#     # current_loc = (current_loc[0]['geometry']['location']['lat'], current_loc[0]['geometry']['location']['lng'])
+#     #
+#     # ### Get current location with gmaps function (also kinda inaccurate) ###
+#     # current_loc = gmaps.geolocate()
+#     # # current_loc = (current_loc['location']['lat'], current_loc['location']['lng'])
+#     #
+#     # print(current_loc)
+#     # # run(gmaps, current_loc)
+#     print("Welcome to Teah's GPS!")
+#     print("Enter your destination or 'exit' to quit:")
+#     inp = input()
+#     result = get_directions(inp)
+#     print(result)
